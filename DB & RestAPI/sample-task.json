@@ -1,0 +1,190 @@
+{
+  "version": 6,
+  "entities": [
+    {
+      "entity": {
+        "type": "Project",
+        "id": "5282cf65-fda1-4b96-b309-7996f1e71029",
+        "name": "Sample Task"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Form"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "name": "http",
+                "version": "V11"
+              },
+              "host": "localhost",
+              "path": "/sample-task/api/restapi/employee_list"
+            },
+            "id": "734177d8-bb9c-4286-8693-73ff85952aa5",
+            "name": "Employee List",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "Api-Key",
+                "value": "EP5UVmGbB34btNFEXKWHSckxZ5yVMmd9XQZkuSjohvGm5b7EV16HrJMu7Q0oRq0a"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": [
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "email",
+                    "value": "superadmin@gmail.com"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "password",
+                    "value": "Admin123#"
+                  }
+                ]
+              },
+              "bodyType": "Form"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "name": "http",
+                "version": "V11"
+              },
+              "host": "localhost",
+              "path": "/sample-task/api/restapi/login"
+            },
+            "id": "de5a0913-e67b-4aea-b582-be161c731cdd",
+            "name": "Login",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "Api-Key",
+                "value": "EP5UVmGbB34btNFEXKWHSckxZ5yVMmd9XQZkuSjohvGm5b7EV16HrJMu7Q0oRq0a"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": [
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "email",
+                    "value": "malammaulikit@gmail.com"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "password",
+                    "value": "Admin123#"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "username",
+                    "value": "Malam Maulik"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "last_name",
+                    "value": "Malam"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "first_name",
+                    "value": "Maulik"
+                  }
+                ]
+              },
+              "bodyType": "Form"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "name": "http",
+                "version": "V11"
+              },
+              "host": "localhost",
+              "path": "/sample-task/api/restapi/register"
+            },
+            "id": "38b88fa9-bd21-4cea-837b-5640505ee198",
+            "name": "Registration",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "Api-Key",
+                "value": "EP5UVmGbB34btNFEXKWHSckxZ5yVMmd9XQZkuSjohvGm5b7EV16HrJMu7Q0oRq0a"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
